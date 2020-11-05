@@ -23,6 +23,7 @@ public class EjemploGlobalSteps {
 
 
     private HomePage homepage  = new HomePage();
+    private String as =  "a";
 
     @Given("^el el cliente  (.*)busca la compra$")
     public void elElClienteBuscaLaCompra(String nombreActor) {
